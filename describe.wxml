@@ -1,0 +1,16 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+<view class="sk">{{sick}}</view>
+  <template is="head" data="{{title: '疾病介绍：'}}"/>
+  <view class="jieshao"><text>{{describe}}</text></view>
+  <view class="page-body">
+    <view class="button-sp-area">
+      <navigator class="navigator">
+      <button type="default" plain="true" bindtap='probe'><text style="color:#4016dc">开始填写病情问卷</text></button>
+      </navigator>
+    </view>
+  </view>
+
+</view>

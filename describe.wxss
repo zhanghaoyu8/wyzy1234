@@ -1,0 +1,35 @@
+/* page/htzx/qs/index.wxss */
+@import "../../common/lib/weui.wxss";
+
+.sk{
+  text-align:center;
+  margin:20px 0 0 0;
+  font-size:28px;
+  font-family:华文行楷;
+  color: #7030bb;
+}
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.button-area::after{
+  border-color:#4016dc;
+}
+
+.jst{
+  text-align:center;
+  margin:10px,0,0,0;
+  font-size:60rpx;
+  font-family:华文行楷;
+  color: #7030bb;
+}
+.jieshao{
+  text-indent:2em;
+  margin:20px 0 0 0;
+  font-size:40rpx;
+  
+}
